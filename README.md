@@ -1,12 +1,60 @@
-# Stack Masters - Official Rules
-## The DevOps/SRE/DevSecOps Trading Card Game
+# The DevOps/SRE/DevSecOps Trading Card Game - Stack Masters
+
+![Stack Masters Logo](/stack-masters.png)
 
 ### 🎯 **OBJECTIVE**
 Build and maintain the most reliable, secure, and efficient infrastructure. Win by either:
 - Reaching **20 Uptime Points (UP)** first, OR
 - Reducing your opponent's **Service Health** to zero
 
+
+
+## 🚀 **HOW TO RUN THIS GAME**
+
+### **System Requirements**
+- **Python 3.6 or higher** (check with `python --version` or `python3 --version`)
+- **Operating System:** Windows, macOS, or Linux
+- **Terminal/Command Prompt** access
+- **No additional libraries required** - uses only Python built-ins
+
+### **Installation & Setup**
+
+#### **Step 1: Get the Game Files**
+1. Save the Python code as `stack_masters.py` (or `sm.py`)
+2. Make sure the file is in a directory you can access from terminal
+
+#### **Step 2: Run the Game**
+
+**Option A: Using Python Command**
+```bash
+python stack_masters.py
+```
+or
+```bash
+python3 stack_masters.py
+```
+
+**Option B: Make it Executable (Linux/macOS)**
+```bash
+chmod +x stack_masters.py
+./stack_masters.py
+```
+
+#### **Step 3: Choose Your Game Mode**
+When you run the game, you'll see:
+```
+🚀 Welcome to Stack Masters!
+The DevOps/SRE Trading Card Game
+
+Choose game mode:
+1. Human vs Human
+2. Human vs Computer  
+3. Computer vs Computer (watch AI battle!)
+
+Enter your choice (1-3):
+```
 ---
+## Stack Masters - Official Rules
 
 ## 🃏 **CARD TYPES**
 
